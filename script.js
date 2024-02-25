@@ -30,7 +30,7 @@ function factorial(num1) {
 }
 
 //funcion exponente de un numero
-function calcularExponente(base, exponente) {
+function Exponente(base, exponente) {
   return base ** exponente;
 }
 
