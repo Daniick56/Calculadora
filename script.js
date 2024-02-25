@@ -29,6 +29,12 @@ function factorial(num1) {
   return resultado;
 }
 
+//funcion exponente de un numero
+function calcularExponente(base, exponente) {
+  return base ** exponente;
+}
+
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt("Elija una opción:\n1. Suma\n2. Resta\n3. Multiplicación\n4. División\n5. Factorial\n6. Exponente\n7. Raíz cuadrada");
@@ -57,8 +63,8 @@ function calculadora() {
       resultado = factorial(num1);
       break;
     case "6":
-      var exponenteNum = parseFloat(prompt("Ingrese el exponente:"));
-      resultado = exponente(num1, exponenteNum);
+      var exponente = parseFloat(prompt("Ingrese el exponente:"));
+      resultado = exponente(base, exponente);
       break;
     case "7":
       resultado = raizCuadrada(num1);
