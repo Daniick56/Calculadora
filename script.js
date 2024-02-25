@@ -34,6 +34,10 @@ function calcularExponente(base, exponente) {
   return base ** exponente;
 }
 
+//funcion que retorna la raiz cuandrada de un numero
+function raizCuadrada(num1) {
+  return num1 ** 0.5;
+}
 
 // Función principal del programa
 function calculadora() {
