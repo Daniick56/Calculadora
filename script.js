@@ -78,7 +78,7 @@ function calculadora() {
       break;
   }
 
-  alert("El resultado es: " + resultado);
+  alert("El resultado es: " + resultado.toFixed(2));
 }
 
 // Llamar a la función principal
